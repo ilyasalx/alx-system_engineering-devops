@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -tupe d -not -name | wc -l
+find . -type d -not -name '.' | wc -l
